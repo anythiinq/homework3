@@ -11,6 +11,12 @@
 //    50 40 30                        3
 int countIncludes(const double a1[], int n1, const double a2[], int n2)
 {
+    if (n1 < 0) {
+        n1 = 0;
+    } else if (n2 < 0) {
+        n2 = 0;
+    }
+    
     if (n2 == 0)
         return 1;
     if (n2 > n1)
