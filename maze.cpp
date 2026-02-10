@@ -1,7 +1,3 @@
-#include <iostream>
-#include <string>
-using namespace std;
-
 const char WALL = 'X';
 const char OPEN = '.';
 const char SEEN = 'o';
